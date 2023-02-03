@@ -1,0 +1,24 @@
+:root {
+  --sidePadding: 3%;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
